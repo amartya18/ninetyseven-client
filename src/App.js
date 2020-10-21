@@ -11,8 +11,8 @@ function App() {
     <Router>
       <NavbarContainer />
       <Switch>
-        <Route path="/" exact component={ListviewContainer} />
-        <Route path="/:id" component={Detailview} />
+        <Route path="/ninetyseven-client/" exact component={ListviewContainer} />
+        <Route path="/ninetyseven-client/:id" component={Detailview} />
       </Switch>
     </Router>
   );

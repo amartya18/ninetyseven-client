@@ -15,7 +15,7 @@ import { useEffect } from 'react';
 export default function Success({ carChosen }) {
   useEffect(() => {
     console.log(carChosen);
-  },[])
+  },[carChosen])
   return (
     <Container>
       <Inner>
@@ -37,8 +37,8 @@ export default function Success({ carChosen }) {
               </div>
             </InnerPane>
             <InnerPane>
-              <Button to="/" active="true">Done</Button>
-              <Button to="/" >Car details</Button>
+              <Button to="/ninetyseven-client" active="true">Done</Button>
+              <Button to="/ninetyseven-client" >Car details</Button>
             </InnerPane>
           </Pane>
       </Inner>

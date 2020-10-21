@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import item from './temp-data2.json';
 import * as components from './forms';
+import MediaQuery from 'react-responsive';
 
 import Progress from '../Progress'
 
@@ -44,10 +45,6 @@ export default function Detailview({ match }) {
   const handleChange = input => {
     setCarChosen(input);
   }
-
-  useEffect(() => {
-
-  }, [carChosen])
 
   const Component = components[type[step]];
   return (

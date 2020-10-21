@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar'
 // temp icons import
 import car from '../assets/bx-car.svg';
-import comment from '../assets/bx-car.svg';
+import comment from '../assets/comment.svg';
 import tag from '../assets/price-tag.svg';
 import user from '../assets/user-circle.svg';
 
@@ -14,7 +14,6 @@ function NavbarContainer() {
         <Navbar.Brand>mobilocal</Navbar.Brand>
         <Navbar.Mobile />
         <Navbar.Menu>
-          {/* Navbar Items */}
           <Navbar.Item>
             <Navbar.Icon name={car} size="29px" />
             Garage

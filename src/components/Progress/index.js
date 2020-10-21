@@ -22,6 +22,7 @@ export default function Progress({ step }) {
       temp[i] = true;
     }
     setStatus(temp);
+    console.log('test');
   }, [step])
 
   return(

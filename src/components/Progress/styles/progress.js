@@ -1,4 +1,5 @@
 import styled,{ css } from 'styled-components';
+import arrow from '../../../assets/arrow-right.svg';
 
 export const Wrapper = styled.div`
   background-color: #ffffff;
@@ -35,7 +36,11 @@ export const Step = styled.div`
   `};
 
   &:after {
-    content: ${props => props.last ? "" : "url('/assets/arrow-right.svg')" };
+    ${props => props.last ?
+    "" :
+    css`
+      content: url("${arrow}");
+    `}
     margin-right: auto;
     margin-left: auto;
     padding-top: 0.3rem;

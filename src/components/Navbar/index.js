@@ -1,6 +1,8 @@
 import React,{ useState, useCallback, useMemo } from 'react';
 import { useContext } from 'react';
 // react-springs for future animation
+import close from '../../assets/close-outline.svg';
+import menu from '../../assets/menu-outline.svg';
 
 import {
   Navbar as Wrapper,
@@ -30,7 +32,6 @@ export default function Navbar({ children }) {
   const value = useMemo(() => ({mobile, navbar}), [mobile]); // react complains dependency is missing
 
   return(
-    // pass value to provider if state is needed
     <NavbarContext.Provider value={value}> 
         {children}
     </NavbarContext.Provider>
@@ -108,8 +109,8 @@ function NavbarMobile() {
   return(
     <Mobile>
       {mobile ? 
-      (<Navbar.Icon onClick={navbar} name="close-outline.svg" size="35px" />) : 
-      (<Navbar.Icon onClick={navbar} name="menu-outline.svg" size="35px" />)}
+      (<Navbar.Icon onClick={navbar} name={close} size="35px" />) : 
+      (<Navbar.Icon onClick={navbar} name={menu} size="35px" />)}
     </Mobile>
   );
 }

@@ -11,7 +11,7 @@ import {
 } from './styles/specification'
 import crv from '../../../images/cr-v-2.png'
 
-export default function SpecificationF({ nextStep, prevStep, handleChange, carOption, carChosen, setCarChosen }) {
+export default function SpecificationF({ nextStep, prevStep, handleChange, carOption, carChosen }) {
   React.useEffect(() => {
   }, [carChosen]);
 
