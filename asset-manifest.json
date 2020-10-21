@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/ninetyseven-client/static/css/main.3f2ea0ed.chunk.css",
-    "main.js": "/ninetyseven-client/static/js/main.dbfd9b51.chunk.js",
-    "main.js.map": "/ninetyseven-client/static/js/main.dbfd9b51.chunk.js.map",
+    "main.js": "/ninetyseven-client/static/js/main.8308675c.chunk.js",
+    "main.js.map": "/ninetyseven-client/static/js/main.8308675c.chunk.js.map",
     "runtime-main.js": "/ninetyseven-client/static/js/runtime-main.7ec578c6.js",
     "runtime-main.js.map": "/ninetyseven-client/static/js/runtime-main.7ec578c6.js.map",
-    "static/js/2.e30855b3.chunk.js": "/ninetyseven-client/static/js/2.e30855b3.chunk.js",
-    "static/js/2.e30855b3.chunk.js.map": "/ninetyseven-client/static/js/2.e30855b3.chunk.js.map",
+    "static/js/2.13671b4b.chunk.js": "/ninetyseven-client/static/js/2.13671b4b.chunk.js",
+    "static/js/2.13671b4b.chunk.js.map": "/ninetyseven-client/static/js/2.13671b4b.chunk.js.map",
     "index.html": "/ninetyseven-client/index.html",
-    "precache-manifest.f3ae1f2229691df6b3ebabe6a8ad6ab1.js": "/ninetyseven-client/precache-manifest.f3ae1f2229691df6b3ebabe6a8ad6ab1.js",
+    "precache-manifest.55bebb24d9163cda03ee9339c5588359.js": "/ninetyseven-client/precache-manifest.55bebb24d9163cda03ee9339c5588359.js",
     "service-worker.js": "/ninetyseven-client/service-worker.js",
     "static/css/main.3f2ea0ed.chunk.css.map": "/ninetyseven-client/static/css/main.3f2ea0ed.chunk.css.map",
-    "static/js/2.e30855b3.chunk.js.LICENSE.txt": "/ninetyseven-client/static/js/2.e30855b3.chunk.js.LICENSE.txt",
+    "static/js/2.13671b4b.chunk.js.LICENSE.txt": "/ninetyseven-client/static/js/2.13671b4b.chunk.js.LICENSE.txt",
+    "static/media/arrow-right.svg": "/ninetyseven-client/static/media/arrow-right.ba463ccb.svg",
     "static/media/bx-car.svg": "/ninetyseven-client/static/media/bx-car.c48c06c4.svg",
+    "static/media/close-outline.svg": "/ninetyseven-client/static/media/close-outline.a31f5edc.svg",
+    "static/media/comment.svg": "/ninetyseven-client/static/media/comment.6a85cfa0.svg",
     "static/media/cr-v-2.png": "/ninetyseven-client/static/media/cr-v-2.a6cd1df1.png",
     "static/media/honda-logo.png": "/ninetyseven-client/static/media/honda-logo.4949226d.png",
+    "static/media/menu-outline.svg": "/ninetyseven-client/static/media/menu-outline.b18eaddd.svg",
     "static/media/price-tag.svg": "/ninetyseven-client/static/media/price-tag.109670d3.svg",
     "static/media/user-circle.svg": "/ninetyseven-client/static/media/user-circle.87e48521.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ec578c6.js",
-    "static/js/2.e30855b3.chunk.js",
+    "static/js/2.13671b4b.chunk.js",
     "static/css/main.3f2ea0ed.chunk.css",
-    "static/js/main.dbfd9b51.chunk.js"
+    "static/js/main.8308675c.chunk.js"
   ]
 }
