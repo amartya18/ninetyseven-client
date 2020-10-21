@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "brand": "Honda",
+  "model": "CR-V",
+  "specification": {
+    "Fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "Transmission": [
+      "Manual",
+      "Automatic"
+    ]
+  },
+  "trim": {
+    "2.0 L i-VTEC": {
+      "description": "The Honda CR-V is a compact crossover SUV manufactured by Japanese automaker Honda since 1995 and introduced in the North American market in 1997. It uses the Honda Civic platform with an SUV body design",
+      "price": 463900000
+    },
+    "1.5 L Turbo": {
+      "description": "The Honda CR-V is a compact crossover SUV manufactured by Japanese automaker Honda since 1995 and introduced in the North American market in 1997. It uses the Honda Civic platform with an SUV body design",
+      "price": 478400000
+    },
+    "1.5 Prestige L Turbo": {
+      "description": "The best-selling crossover over the past decade* is now available with an advanced hybrid powertrain, offering all-wheel drive and an electrifying ride.",
+      "price": 519400000
+    }
+  },
+  "option": {
+    "color": {
+      "Crystal Black Pearl": "#000000",
+      "Metallic Dark Grey": "#343434",
+      "Silver Crystal Pearl": "#939393",
+      "Metallic White Pearl": "#FFFFFF",
+      "Metallic Ocean Blue": "#003795",
+      "Metallic Lava Red": "#BA1316",
+      "Crystal Green Pearl": "#263320"
+    }
+  }
+}
