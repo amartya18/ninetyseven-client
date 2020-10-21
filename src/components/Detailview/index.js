@@ -49,7 +49,9 @@ export default function Detailview({ match }) {
   const Component = components[type[step]];
   return (
     <>
-      <Progress step={step + 1} />
+      <MediaQuery minDeviceWidth={923}>
+        <Progress step={step + 1} />
+      </MediaQuery>
       <Component
         nextStep={nextStep}
         prevStep={prevStep}
