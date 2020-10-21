@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ninetyseven-client/precache-manifest.425002d95aa03722909b47404d47c449.js"
+  "/ninetyseven-client/precache-manifest.88b6b284e56794664067ddb0825c15ab.js"
 );
 
 self.addEventListener('message', (event) => {
