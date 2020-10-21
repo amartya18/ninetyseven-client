@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50aeea91e32cf50826f3206ae6fe27b2",
+    "revision": "4905e2cbbf3fcd1cf92472b99ee65749",
     "url": "/ninetyseven-client/index.html"
   },
   {
-    "revision": "8ce4d26694e3576a928b",
+    "revision": "8943f5b30f2458f74472",
     "url": "/ninetyseven-client/static/css/main.3f2ea0ed.chunk.css"
   },
   {
-    "revision": "24e77d67f0778111c93b",
-    "url": "/ninetyseven-client/static/js/2.01b980d7.chunk.js"
+    "revision": "dc5674e049e128056db4",
+    "url": "/ninetyseven-client/static/js/2.e30855b3.chunk.js"
   },
   {
-    "revision": "b28efdd56deb90065a6ed9c886c45c8b",
-    "url": "/ninetyseven-client/static/js/2.01b980d7.chunk.js.LICENSE.txt"
+    "revision": "f998883c8b36cb5938947f2b19e92b75",
+    "url": "/ninetyseven-client/static/js/2.e30855b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ce4d26694e3576a928b",
-    "url": "/ninetyseven-client/static/js/main.ed93bc7b.chunk.js"
+    "revision": "8943f5b30f2458f74472",
+    "url": "/ninetyseven-client/static/js/main.dbfd9b51.chunk.js"
   },
   {
     "revision": "09131b12ce646ea324e3",
