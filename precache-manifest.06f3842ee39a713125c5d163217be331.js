@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64695dfb46580180dec2410e6e7160d7",
+    "revision": "3568809dc89245b3082a32acd777ce81",
     "url": "/ninetyseven-client/index.html"
   },
   {
-    "revision": "756cdf1854f726e25dc7",
+    "revision": "dbec4d927f435f19ad41",
     "url": "/ninetyseven-client/static/css/main.3f2ea0ed.chunk.css"
   },
   {
-    "revision": "f95930028f9760cfe126",
-    "url": "/ninetyseven-client/static/js/2.49611589.chunk.js"
+    "revision": "a108cb79d084d40a2518",
+    "url": "/ninetyseven-client/static/js/2.d01359cb.chunk.js"
   },
   {
     "revision": "f998883c8b36cb5938947f2b19e92b75",
-    "url": "/ninetyseven-client/static/js/2.49611589.chunk.js.LICENSE.txt"
+    "url": "/ninetyseven-client/static/js/2.d01359cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "756cdf1854f726e25dc7",
-    "url": "/ninetyseven-client/static/js/main.c7b5055b.chunk.js"
+    "revision": "dbec4d927f435f19ad41",
+    "url": "/ninetyseven-client/static/js/main.0bd6fa48.chunk.js"
   },
   {
     "revision": "09131b12ce646ea324e3",
