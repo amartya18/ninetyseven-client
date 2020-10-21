@@ -8,13 +8,19 @@ import {
   InnerPane,
   Button
 } from './styles/sucess';
+import crv from '../../../images/cr-v-2.png'
+import logo from '../../../images/honda-logo.png'
+import { useEffect } from 'react';
 
 export default function Success({ carChosen }) {
+  useEffect(() => {
+    console.log(carChosen);
+  },[])
   return (
     <Container>
       <Inner>
           <Image
-            src="/images/cr-v-2.png"
+            src={crv}
             alt="honda cr-v"
           />
           <Pane>
@@ -22,7 +28,7 @@ export default function Success({ carChosen }) {
             <p>Please wait as we process your option and deliver you the best possible offers from across Indonesia.</p>
             <InnerPane>
               <Icon 
-                src="/images/honda-logo.png" 
+                src={logo}
                 size="70px"
               />
               <div>

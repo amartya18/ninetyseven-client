@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 // import components
 import Listview from '../components/Listview'
 import Progress from '../components/Progress'
+import crv from '../images/cr-v-2.png'
 
 function ListviewContainer() {
   return (
@@ -14,7 +15,7 @@ function ListviewContainer() {
       <Listview>
         {datas.map(data => (
           <Listview.Container>
-            <Listview.Image src={data.image} alt={data.title} />
+            <Listview.Image src={crv} alt={data.title} />
             <Listview.Body>
               <Listview.Title>{data.title}</Listview.Title>
               <Listview.Text>{data.desc}</Listview.Text>

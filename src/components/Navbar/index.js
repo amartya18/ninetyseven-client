@@ -95,7 +95,7 @@ function NavbarItem({ children }) {
 function NavbarIcon({ name, size, ...restProps }) {
   return(
     <Icon 
-      src={`/assets/${name}`} 
+      src={name} 
       inputsize={size}
       {...restProps} 
     />

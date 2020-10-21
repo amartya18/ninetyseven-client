@@ -7,9 +7,6 @@ import {
 } from './styles/option'
 
 export default function Option({ nextStep, prevStep, carOption, carChosen, handleChange }) {
-  useEffect(() => {
-    console.log(carChosen);
-  });
 
   function handleClick(value) {
     const newCar = {...carChosen};

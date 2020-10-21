@@ -9,6 +9,7 @@ import {
   Option,
   Next
 } from './styles/specification'
+import crv from '../../../images/cr-v-2.png'
 
 export default function SpecificationF({ nextStep, prevStep, handleChange, carOption, carChosen, setCarChosen }) {
   React.useEffect(() => {
@@ -27,7 +28,7 @@ export default function SpecificationF({ nextStep, prevStep, handleChange, carOp
       <p>You can only choose one car model</p>
       <Inner>
         <Image
-          src="/images/cr-v-2.png"
+          src={crv}
           alt="honda cr-v"
         />
         <Pane>

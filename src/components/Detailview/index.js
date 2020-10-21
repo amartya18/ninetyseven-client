@@ -42,7 +42,6 @@ export default function Detailview({ match }) {
 
   // TODO
   const handleChange = input => {
-    console.log(input);
     setCarChosen(input);
   }
 

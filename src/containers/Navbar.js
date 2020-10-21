@@ -1,6 +1,11 @@
 import React from 'react';
 // import components
 import Navbar from '../components/Navbar'
+// temp icons import
+import car from '../assets/bx-car.svg';
+import comment from '../assets/bx-car.svg';
+import tag from '../assets/price-tag.svg';
+import user from '../assets/user-circle.svg';
 
 function NavbarContainer() {
   return (
@@ -11,22 +16,22 @@ function NavbarContainer() {
         <Navbar.Menu>
           {/* Navbar Items */}
           <Navbar.Item>
-            <Navbar.Icon name="bx-car.svg" size="29px" />
+            <Navbar.Icon name={car} size="29px" />
             Garage
           </Navbar.Item>
 
           <Navbar.Item>
-            <Navbar.Icon name="comment.svg" size="29px" />
+            <Navbar.Icon name={comment} size="29px" />
             Chats
           </Navbar.Item>
 
           <Navbar.Item>
-            <Navbar.Icon name="price-tag.svg" size="29px" />
+            <Navbar.Icon name={tag} size="29px" />
             Offers
           </Navbar.Item>
 
           <Navbar.Item>
-            <Navbar.Icon name="user-circle.svg" size="29px" />
+            <Navbar.Icon name={user} size="29px" />
             Account
           </Navbar.Item>
         </Navbar.Menu>

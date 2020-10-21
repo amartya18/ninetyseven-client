@@ -14,10 +14,6 @@ import {
 } from './styles/trim';
 
 export default function Trim({ nextStep, prevStep, carOption, carChosen, setCarChosen, handleChange }) {
-  React.useEffect(() => {
-    console.log(carChosen);
-  },[carChosen])
-
   function handleClick(value) {
     const newCar = {...carChosen};
     newCar.trim = value;
